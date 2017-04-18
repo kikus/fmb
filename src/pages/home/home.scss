@@ -1,0 +1,22 @@
+page-home {
+    ion-navbar.toolbar {
+        .toolbar-background {
+            //Meter el random en codigo, no aquí porque no se actualiza hasta que se guarda el css
+            background-image: url("http://www.fmbalonmano.com/upload/portada/composicion0" + (random(7) + 1) + "_240ppp_769x141.jpg");
+            background-size: cover;
+            opacity: 0.2;
+        }
+    }
+    .toolbar-title {
+        font-size: 1.6rem;
+        padding-left: 60px;
+        background-image: url(./../assets/images/fmb_logo.png);
+        background-position-x: 4px;
+        background-position-y: 50%;
+        background-size: 50px;
+        background-repeat: no-repeat;
+        span {
+            color: #c61618;
+        }
+    }
+}
